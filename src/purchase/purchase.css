@@ -1,0 +1,47 @@
+.purchase {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(208, 239, 249);
+  height: 100vh;
+}
+.top > hr {
+  width: 70%;
+  border: solid 1px;
+  color: #aa0d10;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.purchase-list {
+  background-color: rgb(208, 239, 249);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.purchased-item {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  background-color: white;
+  border: #aa0d10 solid 2px;
+  margin-bottom: 2%;
+}
+.total-avg {
+  width: 20%;
+  background-color: rgba(192, 98, 75, 0.363);
+  padding: 1%;
+}
+.item-purchased {
+  width: 60%;
+  padding: 1%;
+}
+.date-purchased {
+  background-color: rgba(75, 192, 192, 0.2);
+  width: 20%;
+  padding: 1%;
+}

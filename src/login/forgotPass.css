@@ -1,0 +1,26 @@
+.forgotPass {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(208, 239, 249);
+  height: 100vh;
+}
+.resetPass {
+  margin-top: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: solid #aa0d0f;
+  height: 35%;
+  width: 35%;
+}
+.form-pass {
+  height: 50%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

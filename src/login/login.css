@@ -1,0 +1,70 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(208, 239, 249);
+  height: 100vh;
+}
+.login > h3 {
+  color: #aa0d0f;
+}
+.sign-in-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 40%;
+  width: 20%;
+  background-color: #aa0d0f;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60%;
+  width: 100%;
+}
+.form > h4 {
+  margin: 1%;
+  color: whitesmoke;
+  font-size: medium;
+}
+.form > input {
+  margin: 1%;
+  width: 80%;
+  border: none;
+}
+.form > p {
+  font-size: small;
+  color: white;
+}
+.submit {
+  margin: 4%;
+  height: auto;
+  background-color: #0a97cb;
+  border-color: transparent;
+  color: white;
+  text-decoration: none;
+  width: 30%;
+}
+
+.sign-in-form > p {
+  margin: 4%;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.create {
+  background-color: #0a97cb;
+  border-color: transparent;
+  color: white;
+  text-decoration: none;
+  width: 60%;
+}
+.register-link {
+  display: flex;
+  justify-content: center;
+  background-color: #0a97cb;
+  border-color: transparent;
+  width: 60%;
+  text-decoration: none;
+}

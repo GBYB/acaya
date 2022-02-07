@@ -1,0 +1,50 @@
+.header {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(238, 252, 255);
+  position: sticky;
+  z-index: 100;
+  top: 0;
+}
+.link {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  width: 100%;
+}
+.container {
+  display: flex;
+}
+
+.left {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cart_image {
+  display: flex;
+  flex-direction: column;
+}
+
+.signout_btn {
+  width: 100%;
+  padding: none;
+  border: none;
+}
+
+.cart_bag {
+  width: auto;
+  border: transparent;
+  background-color: transparent;
+}
+
+.cart_count {
+}

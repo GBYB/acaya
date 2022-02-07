@@ -1,0 +1,46 @@
+.editProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(208, 239, 249);
+  height: 100vh;
+}
+.submit-btn {
+  background-color: #aa0d10;
+  border-color: transparent;
+  color: white;
+  text-decoration: none;
+}
+.container-profile {
+  margin-top: 5%;
+  background-color: white;
+  border: solid #aa0d10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.container-profile > h5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  width: 40%;
+  padding: 3%;
+}
+.container-profile > form {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+.phone > form {
+  margin-right: auto;
+  margin-left: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin-bottom: 5%;
+}

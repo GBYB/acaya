@@ -1,0 +1,36 @@
+.tracker {
+  background-color: rgb(208, 239, 249);
+  height: 100vh;
+}
+.budget {
+  background-color: white;
+  border: solid #aa0d10 2px;
+  padding: 2%;
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.budget > form > button {
+  margin-bottom: 2%;
+}
+.budget_input {
+  width: 70%;
+  border: solid #aa0d10 2px;
+}
+.budget_btn {
+  height: auto;
+  background-color: #aa0d10;
+  border-color: transparent;
+  color: white;
+  text-decoration: none;
+  width: 30%;
+}
+.topTrack {
+  background-color: rgb(208, 239, 249);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

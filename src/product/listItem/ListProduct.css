@@ -1,0 +1,6 @@
+.list_product {
+  display: flex;
+  margin: 1%;
+  background-color: white;
+  border: solid #aa0d10;
+}

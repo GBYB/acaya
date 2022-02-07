@@ -1,0 +1,30 @@
+.product_item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-height: 400px;
+  min-width: 100px;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+.product {
+  display: flex;
+  margin: 1%;
+}
+.product_item > img {
+  max-height: 70%;
+  justify-content: center;
+  object-fit: contain;
+  max-width: 60%;
+}
+
+.product__info {
+  height: 100px;
+  margin-bottom: 3%;
+}
+.product__info > p {
+  font-size: small;
+}
+.product__price {
+  margin-top: 1%;
+}

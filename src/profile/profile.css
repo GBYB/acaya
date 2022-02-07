@@ -1,0 +1,45 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(208, 239, 249);
+  height: 100vh;
+}
+.profile_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border: solid #aa0d0f;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.profile_text > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  object-fit: contain;
+  height: 60%;
+  width: 100%;
+  padding: 5%;
+}
+.profile_text > form > h5 {
+  color: #aa0d0f;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+.profile_text > form > input {
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+.profile > h3 {
+  color: #aa0d0f;
+}
+.edit {
+  background-color: #aa0d10;
+  border-color: transparent;
+  color: white;
+  text-decoration: none;
+}

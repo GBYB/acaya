@@ -1,0 +1,53 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(208, 239, 249);
+  height: 100vh;
+}
+.register > h3 {
+  color: #aa0d0f;
+}
+.sign-up-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  object-fit: contain;
+  width: 20%;
+  background-color: #aa0d0f;
+}
+
+.sign-up-form > h4 {
+  margin: 2%;
+  color: whitesmoke;
+  font-size: 16px;
+}
+.sign-up-form > input {
+  margin: 2%;
+  width: 80%;
+  border: none;
+}
+
+.submit {
+  background-color: #0a97cb;
+  border-color: transparent;
+  color: white;
+  text-decoration: none;
+  width: 60%;
+}
+
+.sign-up-form > p {
+  margin: 4%;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.register-link {
+  display: flex;
+  justify-content: center;
+  background-color: #0a97cb;
+  border-color: transparent;
+  width: 60%;
+  text-decoration: none;
+}
