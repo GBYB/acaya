@@ -9,7 +9,7 @@ import About from "./about/about";
 import Purchase from "./purchase/purchase";
 import Item from "./product/item";
 //import Header from "./header/header";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import Profile from "./profile/profile";
 import Header from "./header/header";
 import Tracker from "./tracker/tracker";
