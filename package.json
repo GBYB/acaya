@@ -2,6 +2,7 @@
   "name": "acaya-shop",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://GBYB.github.io",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
     "@material-ui/core": "^4.12.3",
@@ -14,6 +15,7 @@
     "firebase": "^9.4.1",
     "firebase-tools": "^9.23.0",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^3.2.3",
     "install": "^0.13.0",
     "mdb-react-ui-kit": "^1.6.0",
     "mdb-ui-kit": "^3.10.0",
@@ -33,6 +35,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
