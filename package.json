@@ -2,7 +2,7 @@
   "name": "acaya-shop",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://GBYB.github.io",
+  "homepage": "https://GBYB.github.io/acaya",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
     "@material-ui/core": "^4.12.3",
