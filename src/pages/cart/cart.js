@@ -6,8 +6,8 @@ import {
   delete_basket_item,
   get_basket,
   get_username,
-} from "../Firebase";
-import { User_Context } from "../useContext";
+} from "../../Firebase";
+import { User_Context } from "../../useContext";
 import "./basketItem.css";
 
 function Cart() {
@@ -150,7 +150,12 @@ function Cart() {
       {/* <Header /> */}
       <div className="cart">
         <Link to="home">
-          <img src="logo.svg" alt="shop logo" height="250" width="250" />
+          <img
+            src={process.env.PUBLIC_URL + "/logo.svg"}
+            alt="shop logo"
+            height="250"
+            width="250"
+          />
         </Link>
         <div className="user-info">
           <h4>hello {username ? username : "loading..."}, here's your cart</h4>

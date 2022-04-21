@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { get_purchases, get_username } from "../Firebase";
-import { User_Context } from "../useContext";
+import { get_purchases, get_username } from "../../Firebase";
+import { User_Context } from "../../useContext";
 import "./purchase.css";
 import "../cart/cart.css";
 function Purchase() {
@@ -130,7 +130,12 @@ function Purchase() {
       <div className="purchase">
         <div className="top">
           <Link to="home">
-            <img src="logo.svg" alt="shop logo" height="250" width="250" />
+            <img
+              src={process.env.PUBLIC_URL + "/logo.svg"}
+              alt="shop logo"
+              height="250"
+              width="250"
+            />
           </Link>
           <h3>Your Purchase History</h3>
           <hr />

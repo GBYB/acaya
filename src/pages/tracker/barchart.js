@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Chart from "chart.js/auto";
 import { Bar } from "react-chartjs-2";
-import { User_Context } from "../useContext";
-import { get_purchases, get_username } from "../Firebase";
+import { User_Context } from "../../useContext";
+import { get_purchases, get_username } from "../../Firebase";
 function BarChart() {
   const [username, setusername] = useState("");
   const [load, setload] = useState(true);

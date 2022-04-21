@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./tracker.css";
 import "../purchase/purchase.css";
-import { User_Context } from "../useContext";
-import { get_username, setBudget } from "../Firebase";
+import { User_Context } from "../../useContext";
+import { get_username, setBudget } from "../../Firebase";
 import BarChart from "./barchart";
 
 function Tracker() {
@@ -58,7 +58,12 @@ function Tracker() {
     <div className="tracker">
       <div className="topTrack">
         <Link to="home">
-          <img src="logo.svg" alt="shop logo" height="350" width="550" />
+          <img
+            src={process.env.PUBLIC_URL + "/logo.svg"}
+            alt="shop logo"
+            height="350"
+            width="550"
+          />
         </Link>
         <h3>take control of your purchases</h3>
         <hr />

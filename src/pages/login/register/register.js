@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, useHistory } from "react-router-dom";
 import "./register.css";
 import "../login.css";
-import { add_user, auth, db } from "../../Firebase";
+import { add_user, auth, db } from "../../../Firebase";
 import { createUserWithEmailAndPassword } from "@firebase/auth";
 import { collection, getDocs, query, where } from "@firebase/firestore";
 
@@ -71,7 +71,12 @@ function Register() {
 
   return (
     <div className="register">
-      <img src="logo.svg" alt="shop logo" height="250" width="250" />
+      <img
+        src={process.env.PUBLIC_URL + "/logo.svg"}
+        alt="shop logo"
+        height="250"
+        width="250"
+      />
       <h3>Register</h3>
       <div className="sign-up-form">
         <form className="form">

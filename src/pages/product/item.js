@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useHistory, useLocation } from "react-router";
-import { add_basket, auth, get_username } from "../Firebase";
-import { User_Context } from "../useContext";
+import { add_basket, auth, get_username } from "../../Firebase";
+import { User_Context } from "../../useContext";
 import "./item.css";
 function Item() {
   const location = useLocation();

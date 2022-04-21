@@ -5,8 +5,8 @@ import {
   changePhone,
   changeUsername,
   get_username,
-} from "../Firebase";
-import { User_Context } from "../useContext";
+} from "../../Firebase";
+import { User_Context } from "../../useContext";
 import "./editProfile.css";
 function EditProfile() {
   const [username, setusername] = useState("");

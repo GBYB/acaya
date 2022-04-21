@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Product from "./Product";
 import "./ListProduct.css";
 import { useHistory } from "react-router";
-import { get_itemID } from "../../Firebase";
+import { get_itemID } from "../../../Firebase";
 
 function ListProduct(prop) {
   const [stateItem, setstateItem] = useState({});

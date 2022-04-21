@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./homepage.css";
 import { Carousel } from "react-bootstrap";
 import ListProduct from "../product/listItem/ListProduct";
-import { getAllItemId } from "../Firebase";
+import { getAllItemId } from "../../Firebase";
 //import { auth, search_item } from "../Firebase";
 function Homepage() {
   //const [searchInput, setSearchInput] = useState("");

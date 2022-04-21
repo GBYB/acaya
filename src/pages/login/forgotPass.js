@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useHistory } from "react-router";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { get_userId, resetPassword } from "../Firebase";
+import { get_userId, resetPassword } from "../../Firebase";
 import "./forgotPass.css";
 toast.configure();
 function ForgotPass() {

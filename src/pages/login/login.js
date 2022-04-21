@@ -1,7 +1,7 @@
 import { useHistory } from "react-router-dom";
 import "./login.css";
 import React, { useState } from "react";
-import { auth, get_userId } from "../Firebase";
+import { auth, get_userId } from "../../Firebase";
 import { signInWithEmailAndPassword } from "@firebase/auth";
 
 const Login = () => {
@@ -65,7 +65,12 @@ const Login = () => {
 
   return (
     <div className="login">
-      <img src="logo.svg" alt="shop logo" height="250" width="250" />
+      <img
+        src={process.env.PUBLIC_URL + "/logo.svg"}
+        alt="shop logo"
+        height="250"
+        width="250"
+      />
       <h3>Login</h3>
       <div className="sign-in-form">
         <form className="form">

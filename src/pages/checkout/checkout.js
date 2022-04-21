@@ -3,14 +3,14 @@ import { Link, useHistory } from "react-router-dom";
 import "./checkout.css";
 import PhoneInput from "react-phone-number-input";
 import "react-phone-number-input/style.css";
-import { User_Context } from "../useContext";
+import { User_Context } from "../../useContext";
 import {
   addPurchase,
   get_basket,
   get_username,
   setBudget,
   updateUser,
-} from "../Firebase";
+} from "../../Firebase";
 function Checkout() {
   const history = useHistory();
   const [phone, setPhone] = useState();
@@ -116,7 +116,12 @@ function Checkout() {
       {/* <Header /> */}
       <div className="checkout">
         <Link to="home">
-          <img src="logo.svg" alt="shop logo" height="250" width="250" />
+          <img
+            src={process.env.PUBLIC_URL + "/logo.svg"}
+            alt="shop logo"
+            height="250"
+            width="250"
+          />
         </Link>
         <h2>Checkout</h2>
         <div className="list">

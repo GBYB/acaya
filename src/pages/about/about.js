@@ -8,7 +8,12 @@ function About() {
 
       <div className="about">
         <Link to="home">
-          <img src="logo.svg" alt="shop logo" height="350" width="550" />
+          <img
+            src={process.env.PUBLIC_URL + "/logo.svg"}
+            alt="shop logo"
+            height="350"
+            width="550"
+          />
         </Link>
         <h2>About us</h2>
         <div className="about_text">

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./profile.css";
-import { get_username } from "../Firebase";
+import { get_username } from "../../Firebase";
 import { Link, useHistory } from "react-router-dom";
-import { User_Context } from "../useContext";
+import { User_Context } from "../../useContext";
 function Profile() {
   const history = useHistory();
   const [username, setusername] = useState("");
@@ -37,7 +37,12 @@ function Profile() {
         {/* <Header /> */}
         <div className="profile">
           <Link to="home">
-            <img src="logo.svg" alt="shop logo" height="250" width="250" />
+            <img
+              src={process.env.PUBLIC_URL + "/logo.svg"}
+              alt="shop logo"
+              height="250"
+              width="250"
+            />
           </Link>
           <h3>Profile</h3>
           <div className="profile_text">

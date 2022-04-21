@@ -3,7 +3,7 @@ import "./header.css";
 import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 import { signOut } from "@firebase/auth";
 import { useHistory } from "react-router";
-import { auth } from "../Firebase";
+import { auth } from "../../Firebase";
 import { Link } from "react-router-dom";
 function Header() {
   const history = useHistory();
@@ -25,7 +25,7 @@ function Header() {
           {/**Logo */}
           <Link className="link" to="home">
             <img
-              src="/logo.svg"
+              src={process.env.PUBLIC_URL + "/logo.svg"}
               width="90"
               height="90"
               className="d-inline-block align-top"
@@ -42,7 +42,7 @@ function Header() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav>
-                <Nav.Link href="about">About Us</Nav.Link>
+                <Nav.Link href="/acaya/about">About Us</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
